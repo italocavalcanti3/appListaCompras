@@ -8,6 +8,9 @@ export default {
     background_light: '#FEFEFF',
 
     brand: '#1B998B',
+    checked: '#999AC6',
+
+    separator: '#C4C4C4',
 
     attention: '#E83F5B',
     attention_light: 'rgba(232, 63, 91, 0.5)',

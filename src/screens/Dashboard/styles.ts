@@ -52,17 +52,21 @@ export const TitleCost = styled.Text`
   color: ${({theme}) => theme.colors.white};
 `;
 
-export const ListArea = styled.View``;
+export const ListArea = styled.View`
+  flex: 1;
+`;
 
 export const ListItens = styled(FlatList).attrs({
     showsVerticalScrollIndicator: false,
-    contentContainerStyle: {
-      padding: 24
-    }
 })`
   background-color: ${({theme}) => theme.colors.background_light};
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
 
-  padding: 16px 32px;
+` as React.ComponentType as new <ItemListProps>() => FlatList<ItemListProps>;
+
+export const Separator = styled.View`
+  height: 0.5px;
+  background-color: ${({theme }) => theme.colors.separator};
+  margin: 0 32px;
 `;

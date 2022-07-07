@@ -6,6 +6,7 @@ export default {
 
     background_dark: '#292F36',
     background_light: '#FEFEFF',
+    background_input: '#F6F6F6',
 
     brand: '#1B998B',
     checked: '#999AC6',
